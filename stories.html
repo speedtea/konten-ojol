@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stories | SAKA Editorial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg: #ffffff; --text: #000000; --accent: #00AA13; --border: #e5e5e5; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; animation: fadeIn 0.8s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+        nav { padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); position: sticky; top: 0; background: white; z-index: 1000; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 1.5rem; letter-spacing: 2px; text-transform: uppercase; font-weight: 900; text-decoration: none; color: black; }
+        .nav-links a { text-decoration: none; color: var(--text); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px; margin-left: 20px; font-weight: 600; }
+
+        .article-container { max-width: 800px; margin: 60px auto; padding: 0 20px; }
+        .article-header { text-align: center; margin-bottom: 40px; }
+        .article-header span { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 3px; color: var(--accent); font-weight: 800; }
+        .article-header h1 { font-family: 'Playfair Display', serif; font-size: 3rem; margin-top: 10px; line-height: 1; }
+
+        .main-img { width: 100%; height: auto; margin-bottom: 40px; border-radius: 2px; }
+        
+        .content { font-size: 1.1rem; line-height: 1.8; color: #333; }
+        .content p { margin-bottom: 25px; }
+        .content blockquote { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.5rem; border-left: 4px solid var(--accent); padding-left: 20px; margin: 40px 0; color: #000; }
+
+        .back-home { display: block; text-align: center; margin-top: 60px; text-decoration: none; color: var(--accent); font-weight: 800; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 2px; }
+
+        footer { padding: 60px 40px; text-align: center; font-size: 0.7rem; color: #aaa; border-top: 1px solid var(--border); }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html" class="logo">SAKA</a>
+    <div class="nav-links">
+        <a href="stories.html" style="color: var(--accent);">Stories</a>
+        <a href="gear.html">Gear</a>
+    </div>
+</nav>
+
+<article class="article-container">
+    <div class="article-header">
+        <span>Street Photography</span>
+        <h1>Diary Ojol: Kalideres Pukul 12 Siang</h1>
+    </div>
+
+    <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80" class="main-img" alt="Street">
+
+    <div class="content">
+        <p>Setiap hari di Kalideres adalah tentang bertahan di tengah kemacetan. Namun bagi saya, setiap momen adalah peluang konten.</p>
+        
+        <blockquote>"Uang dingin 300 ribu adalah awal, tapi kreativitas di jalanan adalah mesin aslinya."</blockquote>
+        
+        <p>Menggunakan kamera helm, saya merekam setiap interaksi. Ternyata, orang-orang di Facebook lebih menyukai kejujuran daripada kemewahan palsu.</p>
+    </div>
+
+    <a href="index.html" class="back-home">← Kembali ke Utama</a>
+</article>
+
+<footer>&copy; 2026 SAKA EDITORIAL.</footer>
+</body>
+</html>
